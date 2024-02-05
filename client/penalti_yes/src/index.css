@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.phoneInput{
+  width: 300px;
+}
+.btn_comment{
+  height: 30px;
+  margin: 0 0 0 5px;
+  padding: 0 7px;
+  background-color: #ed900d;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.admn {
+  color: white;
+}
+#admin_body{
+  width: 100%;
+}
+
+.ok img{
+  cursor: pointer;
+}
+@media screen and (max-width: 500px){
+  *{
+    font-size: 12px;
+  }
+}
+
+.P {
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,124 @@
+.main_body{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_add1{
+    border-radius: 5px;
+    width: 75px;
+    height:30px;
+    background-color: #ed900d;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.history_body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+.profile_body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    color: white;
+    gap: 5px;
+}
+
+.ProfileContainer{
+    border-radius: 5px;
+    background-color: #ed900d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 648px;
+    height: 100%;
+    align-items: center;
+
+}
+.order_container{
+    display: flex;
+    background-color: rgb(5, 112, 218);
+    color: white;
+    flex-direction: column;
+    border-radius: 5px;
+    min-width: 400px;
+}
+.order_main_container{
+    padding: 10px 0;
+}
+.order_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 4px 20px;
+    gap: 4px;
+  
+}
+.order_img img{
+    width: 200px;
+}
+.date_id{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.place_number{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.order_info{
+    padding: 4px 20px;
+}
+.admin_coment{
+    padding: 4px 20px;
+}
+
+@media screen and (max-width: 800px){
+    .Header{
+        padding: 0 10px;
+    }
+    .order_body{
+        min-width: 320px;
+    }
+    .main_body{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+@media screen and (max-width: 500px) {
+    .order_container{
+        min-width: 300px;
+    }
+    .order_info{
+        padding: 4px 2px;
+    }
+    .order_img{
+        padding: 4px 2px;
+    }
+    .admin_coment{
+        padding: 4px 2px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .order_container{
+        min-width: 250px;
+    }
+    .order_info{
+        padding: 4px 2px;
+    }
+    .order_img{
+        padding: 4px 2px;
+    }
+    .order_img img{
+        width: 80px;
+    }
+    .admin_coment{
+        padding: 4px 2px;
+    }
+}
